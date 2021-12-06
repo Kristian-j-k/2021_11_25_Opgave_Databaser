@@ -9,7 +9,7 @@ public class DbSql {
         connection = null;
         stmt = null;
         try {
-            String url = "jdbc:sqlite:C://........";//Indsæt dit eget databasenavn
+            String url = "........";//Indsæt dit eget databasenavn
             connection = DriverManager.getConnection(url);
             System.out.println("forbundet til database");
         } catch (SQLException throwables) {
